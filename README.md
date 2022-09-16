@@ -1,1 +1,12 @@
-# sveltekit-svg-MR
+- in my-library:
+  - `npm i`
+  - `npm run package`
+  - `cd package`
+  - `npm link`
+  - `cd ..`
+  - `npm run dev` - open browser and confirm SVG is displayed
+  - cancel process
+- in my-app
+  - `npm i`
+  - `npm link my-library`
+  - `npm run dev` - open browser: you'll get a 500 error
